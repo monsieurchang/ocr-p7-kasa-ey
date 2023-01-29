@@ -1,0 +1,39 @@
+@use "../../styles/globals.scss" as g;
+
+#accomodation {
+  width: 100%;
+  //   height: auto;
+  //   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1240px;
+
+  main {
+    margin: 0 auto;
+    width: 100%;
+
+    .collapsesContainer {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .collapsesContainer {
+    // border:solid 3px black;
+    // width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    // column-gap: 8%;
+
+    .collapse {
+      width: 100%;
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}

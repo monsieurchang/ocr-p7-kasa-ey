@@ -1,0 +1,42 @@
+@use "../../styles/globals.scss" as g;
+
+#footer {
+    // border: solid 1px orange;
+    background-color: g.$black;
+    width: 100%;
+    height: 209px;
+    @include g.flex-col-center;
+    padding-top: 30px;
+
+    .footerLogo {
+        width: 122px;
+    }
+
+    .footerText {
+        color: g.$white;
+        font-size: 12px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        font-weight: 500;
+    }
+}
+
+/* tablet screen */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #footer {
+        .footerText {
+            font-size: 16px;
+        }
+    }
+}
+
+/* desktop MD screen */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #footer {
+        .footerText {
+            font-size: 24px;
+        }
+    }
+}

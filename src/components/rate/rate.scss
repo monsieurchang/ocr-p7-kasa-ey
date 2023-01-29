@@ -1,0 +1,23 @@
+@use "../../styles/globals.scss" as g;
+
+.starIcon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+/* desktop MD screen */
+@media screen and (min-width: 769px) {
+  .starIcon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* desktop LG screen */
+@media screen and (min-width: 1025px) {
+  .starIcon {
+    width: 30px;
+    height: 30px;
+  }
+}

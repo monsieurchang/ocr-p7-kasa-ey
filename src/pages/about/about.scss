@@ -1,0 +1,56 @@
+@use "../../styles/globals.scss" as g;
+
+/* mobile first */
+#about {
+  width: 100%;
+  // max-width: 1240px;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+  .collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* tablet screen */
+@media screen and (min-width: 481px) {
+  #about {
+    // height: 223px;
+    border-radius: g.$m-radius;
+    position: relative;
+    max-width: 1240px;
+  }
+}
+
+/* desktop MD screen */
+@media screen and (min-width: 769px) {
+  #about {
+    border-radius: g.$m-radius;
+  }
+
+  .collapse {
+    // width: 75%;
+    // margin: 0 auto;
+    // margin-bottom: 181px;
+    // row-gap: 5px;
+  }
+}
+
+/* desktop LG screen */
+@media screen and (min-width: 1025px) {
+  #about {
+    // border: solid 3px cyan;
+    border-radius: g.$d-radius;
+    margin-top: 30px;
+    // width: 100%;
+  }
+
+  .collapse {
+    // border: solid 3px blue;
+    margin-top: 31px;
+  }
+}

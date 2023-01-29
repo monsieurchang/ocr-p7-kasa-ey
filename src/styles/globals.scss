@@ -1,0 +1,94 @@
+/*  mobile first
+    tablet screen (min-width: 481px)
+    desktop MD screen (min-width: 769px)
+    desktop LG screen (min-width: 1025px) 
+    max-width: 1240px  */
+
+// mobile jusqu'à 720px / tablette jusqu'à 1250px / desktop au dessus de 1250 --> 1240px
+
+/* fonts */
+$font1: "Montserrat", sans-serif;
+
+/* colors */
+$red: #ff6060;
+$white: #ffffff;
+$grey: #f6f6f6;
+$black: #000000;
+
+/* radius */
+$m-radius: 10px;
+$d-radius: 25px;
+$tags-radius: 5px;
+$photos-radius: 50%;
+
+/* mixins */
+@mixin flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin m-gallery-arrow {
+  position: absolute;
+  top: 47%;
+  z-index: 1;
+  cursor: pointer;
+  width: 11.7px;
+  height: 20px;
+}
+
+@mixin d-gallery-arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  cursor: pointer;
+  width: 30px;
+  height: 55px;
+}
+
+@mixin d-gallery-arrow-position {
+  width: 47px;
+  height: 79.2px;
+  top: 39%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: $font1;
+  // overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $red;
+
+  :visited {
+    color: $red;
+    /* évite les liens bleux pour la démo */
+  }
+}
+
+li {
+  list-style: none;
+}
+
+#footer {
+  bottom: 0;
+}

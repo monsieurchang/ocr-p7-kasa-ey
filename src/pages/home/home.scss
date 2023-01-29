@@ -1,0 +1,7 @@
+@use "../../styles/globals.scss" as g;
+
+#home {
+  @include g.flex-col-center;
+  max-width: 1240px;
+  position: relative;
+}
