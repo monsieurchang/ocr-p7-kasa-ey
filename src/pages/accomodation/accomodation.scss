@@ -2,8 +2,6 @@
 
 #accomodation {
   width: 100%;
-  //   height: auto;
-  //   margin: 0 auto;
   display: flex;
   flex-direction: column;
   max-width: 1240px;
@@ -15,18 +13,21 @@
     .collapsesContainer {
       width: 100%;
       margin: 0 auto;
+      .collapse {
+        margin: 0;
+      }
     }
   }
 }
 
 @media screen and (min-width: 1025px) {
   .collapsesContainer {
-    // border:solid 3px black;
-    // width: 90%;
+    // border: solid 3px black;
     max-width: 1240px;
-    margin: 0 auto;
+    // margin: 0 auto;
+    // margin-top: 24px;
     display: flex;
-    // column-gap: 8%;
+    column-gap: 76px;
 
     .collapse {
       width: 100%;

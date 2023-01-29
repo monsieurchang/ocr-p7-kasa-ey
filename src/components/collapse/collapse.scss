@@ -79,19 +79,22 @@
 
 @media screen and (min-width: 1025px) {
   #collapse {
+    // border: solid 3px blue;
     // width: 100%;
     max-width: 1023px;
     // margin-bottom: 20px;
     margin-bottom: 30px;
 
     .collapseDiv {
+      // border: solid 3px cyan;
       height: 47px;
       padding: 18.08px;
+      border-radius: g.$m-radius;
 
       .collapseTitle {
         // display: flex;
         // align-items: center;
-        font-size: 24px;
+        font-size: 18px;
         // height: 38px;
       }
 
@@ -108,7 +111,7 @@
 
     .collapseText {
       font-weight: 400;
-      font-size: 24px;
+      font-size: 18px;
       border-bottom-right-radius: g.$m-radius;
       border-bottom-left-radius: g.$m-radius;
       padding-top: 36px;

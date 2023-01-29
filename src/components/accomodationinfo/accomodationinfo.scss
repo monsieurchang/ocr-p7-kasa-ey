@@ -127,6 +127,7 @@
 /* desktop LG screen */
 @media screen and (min-width: 1025px) {
   #accomodationInfo {
+    // border: solid 3px orange;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -144,9 +145,13 @@
 
     .accomodationInfoTags {
       .accomodationInfoTag {
-        width: 115px;
         font-size: 14px;
+        font-weight: 500;
         margin-right: 10px;
+        min-width: 115px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-radius: g.$m-radius;
       }
     }
 
