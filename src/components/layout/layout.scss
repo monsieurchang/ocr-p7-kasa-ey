@@ -1,5 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
+/* mobile first */
 .layoutContainer {
   width: 100%;
   display: flex;
@@ -16,7 +17,6 @@
 //desktop LG screen
 @media screen and (min-width: 1250px) {
   .layoutContainer {
-    // border: solid 3px cyan;
     #layout {
       padding-bottom: 43px;
     }

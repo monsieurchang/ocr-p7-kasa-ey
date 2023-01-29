@@ -4,8 +4,6 @@
     desktop LG screen (min-width: 1025px) 
     max-width: 1240px  */
 
-// mobile jusqu'à 720px / tablette jusqu'à 1250px / desktop au dessus de 1250 --> 1240px
-
 /* fonts */
 $font1: "Montserrat", sans-serif;
 
@@ -72,7 +70,6 @@ body {
   height: 100%;
   width: 100%;
   font-family: $font1;
-  // overflow-x: auto;
 }
 
 a {

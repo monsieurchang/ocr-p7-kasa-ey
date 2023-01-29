@@ -1,5 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
+/* mobile first */
 #error {
   @include g.flex-col-center;
   color: g.$red;

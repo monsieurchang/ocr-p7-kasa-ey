@@ -1,12 +1,11 @@
 @use "../../styles/globals.scss" as g;
 
+/* mobile first */
 #accomodationInfo {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   color: g.$red;
-  // max-width: 1240px;
-  // width: 100%;
 
   .accomodationInfoTitle {
     font-weight: 400;
@@ -127,7 +126,6 @@
 /* desktop LG screen */
 @media screen and (min-width: 1025px) {
   #accomodationInfo {
-    // border: solid 3px orange;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

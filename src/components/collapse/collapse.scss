@@ -1,5 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
+/* mobile first */
 #collapse {
   margin-bottom: 20.07px;
   width: 100%;
@@ -48,7 +49,6 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   #collapse {
-    // width: 89%;
     margin-bottom: 20px;
 
     .collapseDiv {
@@ -79,23 +79,16 @@
 
 @media screen and (min-width: 1025px) {
   #collapse {
-    // border: solid 3px blue;
-    // width: 100%;
     max-width: 1023px;
-    // margin-bottom: 20px;
     margin-bottom: 30px;
 
     .collapseDiv {
-      // border: solid 3px cyan;
       height: 47px;
-      padding: 18.08px;
       border-radius: g.$m-radius;
+      padding-left: 20px;
 
       .collapseTitle {
-        // display: flex;
-        // align-items: center;
         font-size: 18px;
-        // height: 38px;
       }
 
       .collapseArrowUp {
@@ -116,8 +109,7 @@
       border-bottom-left-radius: g.$m-radius;
       padding-top: 36px;
       padding-bottom: 19px;
-      padding-left: 18px;
-      // padding-bottom: 19px;
+      padding-left: 20px;
     }
   }
 }

@@ -1,5 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
+/* mobile first */
 #accomodation {
   width: 100%;
   display: flex;
@@ -22,10 +23,7 @@
 
 @media screen and (min-width: 1025px) {
   .collapsesContainer {
-    // border: solid 3px black;
     max-width: 1240px;
-    // margin: 0 auto;
-    // margin-top: 24px;
     display: flex;
     column-gap: 76px;
 

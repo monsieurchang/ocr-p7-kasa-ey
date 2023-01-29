@@ -44,7 +44,6 @@
   #header {
     height: 55px;
     margin-top: 30px;
-    // padding: 20px;
 
     .headerLogo {
       width: 178px;
@@ -91,6 +90,6 @@
 /* desktop LG screen */
 @media screen and (min-width: 1024px) {
   #header {
-    padding: 20px;
+    // padding: 20px;
   }
 }

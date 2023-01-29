@@ -1,13 +1,8 @@
 @use "./globals.scss" as g;
 
+/* mobile first */
 #router {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
-// @media screen and (min-width: 1025px) {
-//   #router {
-//     border: solid 3px red;
-//   }
-// }
