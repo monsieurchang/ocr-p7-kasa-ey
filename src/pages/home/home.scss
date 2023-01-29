@@ -1,6 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 #home {
   @include g.flex-col-center;
   max-width: 1240px;

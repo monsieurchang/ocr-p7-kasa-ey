@@ -1,6 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 #error {
   @include g.flex-col-center;
   color: g.$red;
@@ -33,6 +33,11 @@
   }
 }
 
+/* tablet */
+@media screen and (min-width: 481px) {
+}
+
+/* desktop */
 @media screen and (min-width: 1025px) {
   #error {
     .error_h1 {

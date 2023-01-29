@@ -1,6 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 #collapse {
   margin-bottom: 20.07px;
   width: 100%;
@@ -47,7 +47,8 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+/* tablet */
+@media screen and (min-width: 481px) {
   #collapse {
     margin-bottom: 20px;
 

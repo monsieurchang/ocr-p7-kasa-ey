@@ -1,6 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 #footer {
   background-color: g.$black;
   width: 100%;
@@ -23,8 +23,8 @@
   }
 }
 
-/* tablet screen */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+/* tablet */
+@media screen and (min-width: 481px) {
   #footer {
     .footerText {
       font-size: 16px;
@@ -32,8 +32,8 @@
   }
 }
 
-/* desktop MD screen */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+/* desktop */
+@media screen and (min-width: 1025px) {
   #footer {
     .footerText {
       font-size: 24px;

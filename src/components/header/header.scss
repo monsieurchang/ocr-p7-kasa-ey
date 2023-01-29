@@ -1,6 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 #header {
   height: 47px;
   width: 100%;
@@ -10,13 +10,10 @@
   padding: 20px;
   margin-top: 20px;
   max-width: 1240px;
-
   .headerLogo {
     width: 145px;
   }
-
   .headerMenu {
-    max-width: 42%;
     min-width: 140px;
 
     .headerUl {
@@ -39,47 +36,33 @@
   }
 }
 
-/* tablet screen */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  #header {
-    height: 55px;
-    margin-top: 30px;
+/* tablet */
+@media screen and (min-width: 481px) {
+  //   .headerMenu {
+  //     .headerUl {
+  //       a {
+  //         margin-left: 57px;
 
+  #header {
+    margin-top: 30px;
     .headerLogo {
       width: 178px;
     }
-
     .headerMenu {
-      min-width: 180px;
-
-      .headerLi {
-        text-transform: none;
-        font-size: 18px;
-      }
-    }
-  }
-}
-
-/* desktop MD screen */
-@media screen and (min-width: 769px) {
-  #header {
-    height: 68px;
-    margin-top: 40px;
-    padding: 0;
-
-    .headerLogo {
-      width: 210px;
-    }
-
-    .headerMenu {
-      // min-width: 260px;
+      // min-width: 140px;
 
       .headerUl {
+        display: flex;
+        justify-content: space-between;
+
         a {
           margin-left: 57px;
+          &:hover {
+            text-decoration: underline;
+          }
           .headerLi {
             text-transform: none;
-            font-size: 24px;
+            font-size: 18px;
           }
         }
       }
@@ -87,9 +70,21 @@
   }
 }
 
-/* desktop LG screen */
-@media screen and (min-width: 1024px) {
+/* desktop */
+@media screen and (min-width: 1025px) {
   #header {
-    // padding: 20px;
+    margin-top: 40px;
+    .headerLogo {
+      width: 210.32px;
+    }
+    .headerMenu {
+      .headerUl {
+        a {
+          .headerLi {
+            font-size: 24px;
+          }
+        }
+      }
+    }
   }
 }

@@ -1,6 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 #accomodation {
   width: 100%;
   display: flex;
@@ -21,17 +21,25 @@
   }
 }
 
+/* tablet */
+@media screen and (min-width: 481px) {
+}
+
+/* desktop */
 @media screen and (min-width: 1025px) {
-  .collapsesContainer {
-    max-width: 1240px;
-    display: flex;
-    column-gap: 76px;
+  #accomodation {
+    main {
+      .collapsesContainer {
+        display: flex;
+        column-gap: 76px;
 
-    .collapse {
-      width: 100%;
+        .collapse {
+          width: 100%;
 
-      p {
-        font-size: 18px;
+          p {
+            font-size: 18px;
+          }
+        }
       }
     }
   }

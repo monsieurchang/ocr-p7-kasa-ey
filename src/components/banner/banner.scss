@@ -1,6 +1,6 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 .banner {
   width: 100%;
   display: flex;
@@ -39,21 +39,22 @@
   }
 }
 
-/* desktop MD screen */
-@media screen and (min-width: 769px) {
-  .banner {
-    height: 148px;
-    border-radius: g.$m-radius;
+// /* desktop MD screen */
+// @media screen and (min-width: 769px) {
+//   .banner {
+//     height: 148px;
+//     border-radius: g.$m-radius;
 
-    .bannerImg {
-      border-radius: g.$m-radius;
-    }
-  }
-}
+//     .bannerImg {
+//       border-radius: g.$m-radius;
+//     }
+//   }
+// }
 
-/* desktop LG screen */
-@media screen and (min-width: 1024px) {
+/* desktop */
+@media screen and (min-width: 1025px) {
   .banner {
+    border: solid 3px blue;
     height: 223px;
     border-radius: g.$d-radius;
     margin-bottom: 43px;
