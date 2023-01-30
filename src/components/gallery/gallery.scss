@@ -61,7 +61,12 @@
     }
 
     .slideCounter {
-      display: none;
+      display: block;
+      color: g.$white;
+      position: absolute;
+      bottom: 18px;
+      left: 50%;
+      font-size: 14px;
     }
 
     .noArrow {

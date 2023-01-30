@@ -14,13 +14,11 @@
       word-break: break-word;
       line-height: 25.67px;
     }
-
     .accomodationInfoLocation {
       font-weight: 400;
       font-size: 14px;
       line-height: 25.67px;
     }
-
     .accomodationInfoTags {
       display: flex;
       justify-content: flex-start;
@@ -31,7 +29,6 @@
       font-size: 10px;
       line-height: 14.2px;
       row-gap: 10px;
-
       .accomodationInfoTag {
         display: flex;
         justify-content: center;
@@ -84,16 +81,12 @@
         font-size: 20px;
         line-height: 37px;
       }
-
       .accomodationInfoLocation {
         font-size: 16px;
         line-height: 25.67px;
       }
-
       .accomodationInfoTags {
         margin-top: 20px;
-        // margin-bottom: 26px;
-
         .accomodationInfoTag {
           height: 21px;
           font-size: 14px;
@@ -106,13 +99,11 @@
       flex-direction: column;
       align-items: flex-end;
       height: 108px;
-      min-width: 145px;
-
+      min-width: 148px;
       .host {
         .hostName {
           font-size: 15px;
         }
-
         .hostPhoto {
           width: 48px;
           height: 48px;
@@ -134,12 +125,10 @@
         font-size: 36px;
         line-height: 51.34px;
       }
-
       .accomodationInfoLocation {
         font-size: 18px;
         line-height: 25.67px;
       }
-
       .accomodationInfoTags {
         .accomodationInfoTag {
           height: 25px;
@@ -160,17 +149,14 @@
       height: 120px;
       margin-left: 30px;
       min-width: 210px;
-
       .host {
         .hostName {
           font-size: 18px;
         }
-
         .hostPhoto {
           width: 64px;
           height: 64px;
         }
-
         .rating {
           margin-top: 30px;
           margin-bottom: 10px;

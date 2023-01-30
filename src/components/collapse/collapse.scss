@@ -50,8 +50,6 @@
 /* tablet */
 @media screen and (min-width: 481px) {
   #collapse {
-    margin-bottom: 20px;
-
     .collapseDiv {
       display: flex;
       justify-content: space-between;
@@ -61,7 +59,7 @@
       padding: 1rem;
       position: relative;
       z-index: 1;
-      height: 30px;
+      // height: 30px;
 
       .collapseTitle {
         font-size: 16px;
@@ -87,6 +85,7 @@
       height: 47px;
       border-radius: g.$m-radius;
       padding-left: 20px;
+      height: 52px;
       .collapseTitle {
         font-size: 18px;
       }
