@@ -6,7 +6,7 @@
   margin: 0 auto;
   border-radius: g.$m-radius;
   position: relative;
-  margin-top: 10px;
+  margin-top: 3.33px;
   margin-bottom: 15px;
   max-width: 1240px;
 
@@ -39,7 +39,7 @@
 /* tablet */
 @media screen and (min-width: 481px) {
   #gallery {
-    border: solid 3px yellow;
+    // border: solid 3px yellow;
     height: 331px;
     margin-top: 10px;
     margin-bottom: 15px;

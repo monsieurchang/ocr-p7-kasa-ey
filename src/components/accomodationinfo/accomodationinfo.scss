@@ -1,16 +1,18 @@
 @use "../../styles/globals.scss" as g;
 
-/* mobile first */
+/* mobile */
 #accomodationInfo {
+  // border: solid 2px cyan;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   color: g.$red;
+  width: 100%;
 
   .accomodationInfoTitle {
+    // border: solid 2px yellow;
     font-weight: 400;
     font-size: 18px;
-    width: 100%;
     word-break: break-word;
     line-height: 25.67px;
   }
@@ -48,17 +50,16 @@
   }
 
   .hostStars {
+    // border: solid 2px red;
     margin-top: 0px;
     color: g.$red;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-
     .host {
       display: flex;
       align-items: center;
-
       .hostName {
         display: flex;
         width: min-content;
@@ -66,7 +67,6 @@
         font-size: 12px;
         margin-right: 10.5px;
       }
-
       .hostPhoto {
         width: 32px;
         height: 32px;
@@ -76,8 +76,8 @@
   }
 }
 
-/* desktop MD screen */
-@media screen and (min-width: 769px) {
+/* tablet */
+@media screen and (min-width: 481px) {
   #accomodationInfo {
     display: flex;
     flex-direction: row;
@@ -98,16 +98,18 @@
       margin-bottom: 26px;
 
       .accomodationInfoTag {
-        height: 25px;
+        height: 21px;
         font-size: 14px;
-        border-radius: g.$m-radius;
+        border-radius: g.$tags-radius;
       }
     }
 
     .hostStars {
       display: flex;
       flex-direction: column;
+      align-items: flex-end;
       height: 108px;
+      min-width: 145px;
 
       .host {
         .hostName {
@@ -123,7 +125,7 @@
   }
 }
 
-/* desktop LG screen */
+/* desktop */
 @media screen and (min-width: 1025px) {
   #accomodationInfo {
     display: flex;
@@ -143,6 +145,7 @@
 
     .accomodationInfoTags {
       .accomodationInfoTag {
+        height: 25px;
         font-size: 14px;
         font-weight: 500;
         margin-right: 10px;
@@ -154,10 +157,13 @@
     }
 
     .hostStars {
+      // border: solid 1px blue;
       display: flex;
       flex-direction: column;
+      align-items: flex-end;
       height: 120px;
       margin-left: 30px;
+      min-width: 210px;
 
       .host {
         .hostName {

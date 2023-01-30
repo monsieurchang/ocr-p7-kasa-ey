@@ -10,8 +10,10 @@
   padding: 20px;
   margin-top: 20px;
   max-width: 1240px;
-  .headerLogo {
-    width: 145px;
+  a {
+    .headerLogo {
+      width: 145px;
+    }
   }
   .headerMenu {
     min-width: 140px;
@@ -38,28 +40,18 @@
 
 /* tablet */
 @media screen and (min-width: 481px) {
-  //   .headerMenu {
-  //     .headerUl {
-  //       a {
-  //         margin-left: 57px;
-
   #header {
+    padding: 30px;
     margin-top: 30px;
-    .headerLogo {
-      width: 178px;
+    a {
+      .headerLogo {
+        width: 178px;
+      }
     }
     .headerMenu {
-      // min-width: 140px;
-
       .headerUl {
-        display: flex;
-        justify-content: space-between;
-
         a {
-          margin-left: 57px;
-          &:hover {
-            text-decoration: underline;
-          }
+          margin-left: 40px;
           .headerLi {
             text-transform: none;
             font-size: 18px;
@@ -73,14 +65,24 @@
 /* desktop */
 @media screen and (min-width: 1025px) {
   #header {
+    // border: solid 2px blue;
+    padding: 40px;
     margin-top: 40px;
-    .headerLogo {
-      width: 210.32px;
+    height: 62.26px;
+    a {
+      .headerLogo {
+        // border: solid 2px greenyellow;
+        width: 210.32px;
+      }
     }
     .headerMenu {
+      // border: solid 2px yellow;
       .headerUl {
+        // border: solid 2px red;
         a {
+          // border: solid 2px white;
           .headerLi {
+            // border: solid 2px blue;
             font-size: 24px;
           }
         }
