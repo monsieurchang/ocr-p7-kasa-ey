@@ -6,7 +6,9 @@ import "./layout.scss";
 let Layout = (props) => {
   return (
     <div className="layoutContainer">
-      <Header />
+      <div className="headerContainer">
+        <Header />
+      </div>
       <div id="layout">{props.children}</div>
       <Footer />
     </div>

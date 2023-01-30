@@ -40,17 +40,12 @@
 /* tablet */
 @media screen and (min-width: 481px) {
   #card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: g.$grey;
-    // padding: 50px;
     padding-top: 27.5px;
-    // gap: 45px;
-    row-gap: 35px;
     a {
       .cardItem {
         height: 297px;
+        margin-bottom: 40px;
+
         .cardImg {
         }
         .cardTitle {

@@ -43,15 +43,16 @@
   #header {
     padding: 30px;
     margin-top: 30px;
+    border: solid 1px blue;
     a {
       .headerLogo {
         width: 178px;
       }
     }
     .headerMenu {
+      min-width: 182px;
       .headerUl {
         a {
-          margin-left: 40px;
           .headerLi {
             text-transform: none;
             font-size: 18px;
@@ -65,25 +66,20 @@
 /* desktop */
 @media screen and (min-width: 1025px) {
   #header {
-    // border: solid 2px blue;
     padding: 40px;
     margin-top: 40px;
-    height: 62.26px;
     a {
       .headerLogo {
-        // border: solid 2px greenyellow;
         width: 210.32px;
       }
     }
     .headerMenu {
-      // border: solid 2px yellow;
       .headerUl {
-        // border: solid 2px red;
         a {
-          // border: solid 2px white;
           .headerLi {
-            // border: solid 2px blue;
+            text-transform: none;
             font-size: 24px;
+            margin-left: 57px;
           }
         }
       }

@@ -7,40 +7,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // background-color: rgb(154, 216, 255);
+  .headerContainer {
+    background-color: rgb(255, 212, 212);
+    width: 100%;
+  }
   #layout {
+    // border: solid 5px black;
     min-height: calc(100vh - 47px - 223px);
     padding: 20px;
-    width: 100%;
   }
 }
 /* tablet */
 @media screen and (min-width: 481px) {
   .layoutContainer {
-    background-color: rgb(206, 206, 206);
+    .headerContainer {
+    }
     #layout {
-      padding-left: 30px;
-      padding-right: 30px;
+      padding: 30px;
     }
   }
 }
 
-// /* desktop MD screen */
-// @media screen and (min-width: 769px) {
-//   .layoutContainer {
-//     background-color: rgb(255, 195, 195);
-//   }
-// }
-
 /* desktop */
 @media screen and (min-width: 1025px) {
   .layoutContainer {
-    background-color: rgb(255, 195, 195);
-    // max-width: 1240px;
-    #layout {
-      padding-bottom: 43px;
-      padding-left: 40px;
-      padding-right: 40px;
+    .headerContainer {
+      border: solid 3px red;
+      #layout {
+        // border: solid 3px blue;
+        padding: 40px;
+      }
     }
+    // #layout {
+    //   padding-bottom: 43px;
+    //   padding-left: 40px;
+    //   padding-right: 40px;
+    // }
   }
 }
