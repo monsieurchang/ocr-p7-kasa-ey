@@ -42,11 +42,20 @@
   #card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: g.$grey;
-
+    // padding: 50px;
+    padding-top: 27.5px;
+    // gap: 45px;
+    row-gap: 35px;
     a {
-      // width: 50%;
-      // padding: 15px;
+      .cardItem {
+        height: 297px;
+        .cardImg {
+        }
+        .cardTitle {
+        }
+      }
     }
   }
 }

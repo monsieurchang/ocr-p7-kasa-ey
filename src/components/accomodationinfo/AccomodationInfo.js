@@ -5,7 +5,7 @@ import "./accomodationinfo.scss";
 function AccomodationInfo({ title, location, tags, host, rating }) {
   return (
     <div id="accomodationInfo">
-      <section>
+      <section className="accomodationSection">
         <h1 className="accomodationInfoTitle">{title}</h1>
         <h2 className="accomodationInfoLocation">{location}</h2>
         <div className="accomodationInfoTags">

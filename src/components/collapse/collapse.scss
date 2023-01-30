@@ -87,22 +87,18 @@
       height: 47px;
       border-radius: g.$m-radius;
       padding-left: 20px;
-
       .collapseTitle {
         font-size: 18px;
       }
-
       .collapseArrowUp {
         transform: rotate(180deg);
         width: 14.6px;
       }
-
       .collapseArrowDown {
         transition: 0.7s;
         width: 14.6px;
       }
     }
-
     .collapseText {
       font-weight: 400;
       font-size: 18px;
