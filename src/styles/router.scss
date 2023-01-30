@@ -1,14 +1,10 @@
 @use "./globals.scss" as g;
 
-/* mobile */
-#router {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-/* tablet */
-@media screen and (min-width: 481px) {
+/* desktop */
+@media screen and (min-width: 1025px) {
   #router {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
