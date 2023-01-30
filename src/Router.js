@@ -1,10 +1,10 @@
-import React from "react"
-import { Routes, Route } from "react-router-dom"
-import About from "./pages/about/About"
-import Accomodation from "./pages/accomodation/Accomodation"
-import Error from "./pages/error/Error"
-import Home from "./pages/home/Home"
-import "./styles/router.scss"
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import About from "./pages/about/About";
+import Accomodation from "./pages/accomodation/Accomodation";
+import Error from "./pages/error/Error";
+import Home from "./pages/home/Home";
+import "./styles/router.scss";
 
 function Router() {
   return (
@@ -29,6 +29,6 @@ function Router() {
         />
       </Routes>
     </div>
-  )
+  );
 }
-export default Router
+export default Router;

@@ -7,26 +7,22 @@
   margin-top: 150px;
   margin-left: 20px;
   margin-right: 20px;
-
   .error_h1 {
     font-weight: 700;
     font-size: 96px;
   }
-
   .error_p {
     font-size: 18px;
     font-weight: 500;
     line-height: 25.67px;
     text-align: center;
   }
-
   .error_a {
     margin-top: 133px;
     margin-bottom: 100px;
     font-weight: 500;
     font-size: 14px;
     text-decoration-line: underline;
-
     &:hover {
       text-decoration: none;
     }
@@ -43,18 +39,15 @@
     .error_h1 {
       font-size: 200px;
     }
-
     .error_p {
       width: 100%;
       font-size: 36px;
     }
-
     .error_a {
       text-align: center;
       margin-top: 182px;
       width: 100%;
       font-size: 18px;
-
       &:hover {
         text-decoration: underline 1px;
       }

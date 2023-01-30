@@ -6,29 +6,29 @@ import "./card.scss";
 
 function Card() {
   return (
-      <div id="card">
-          {DataFile.map((accomodation) => (
-            <Link
-              to={`/accomodation/${accomodation.id}`}
-              key={accomodation.id}
-              onClick={() => {
-                window.scroll(0, 0);
-              }}
-            >
-              <div
-                key={accomodation.id}
-                className="cardItem"
-              >
-                <img
-                  className="cardImg"
-                  src={accomodation.cover}
-                  alt={accomodation.title}
-                />
-                <h2 className="cardTitle">{accomodation.title}</h2>
-              </div>
-            </Link>
-          ))}
-        </div>
+    <div id="card">
+      {DataFile.map((accomodation) => (
+        <Link
+          to={`/accomodation/${accomodation.id}`}
+          key={accomodation.id}
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
+        >
+          <div
+            key={accomodation.id}
+            className="cardItem"
+          >
+            <img
+              className="cardImg"
+              src={accomodation.cover}
+              alt={accomodation.title}
+            />
+            <h2 className="cardTitle">{accomodation.title}</h2>
+          </div>
+        </Link>
+      ))}
+    </div>
   );
 }
 

@@ -24,5 +24,4 @@ function Rate({ rating }) {
     )
   );
 }
-
 export default Rate;

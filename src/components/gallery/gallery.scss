@@ -9,28 +9,23 @@
   margin-top: 3.33px;
   margin-bottom: 15px;
   max-width: 1240px;
-
   .galleryImg {
     width: 100%;
     height: 255px;
     object-fit: cover;
     border-radius: g.$m-radius;
   }
-
   .arrowL {
     @include g.m-gallery-arrow;
     left: 5.83px;
   }
-
   .arrowR {
     @include g.m-gallery-arrow;
     right: 5.83px;
   }
-
   .slideCounter {
     display: none;
   }
-
   .noArrow {
     display: none;
   }
@@ -39,27 +34,22 @@
 /* tablet */
 @media screen and (min-width: 481px) {
   #gallery {
-    // border: solid 3px yellow;
     height: 331px;
     margin-top: 10px;
     margin-bottom: 15px;
-
     .galleryImg {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-
     .arrowL {
       @include g.m-gallery-arrow;
       left: 15px;
     }
-
     .arrowR {
       @include g.m-gallery-arrow;
       right: 15px;
     }
-
     .slideCounter {
       display: block;
       color: g.$white;
@@ -68,7 +58,6 @@
       left: 50%;
       font-size: 14px;
     }
-
     .noArrow {
       display: none;
     }
@@ -81,12 +70,10 @@
     width: 100%;
     height: 415px;
     margin-bottom: 24px;
-
     .galleryImg {
       height: 415px;
       border-radius: g.$d-radius;
     }
-
     .slideCounter {
       display: block;
       color: g.$white;
@@ -95,12 +82,10 @@
       left: 50%;
       font-size: 18px;
     }
-
     .arrowL {
       @include g.d-gallery-arrow;
       left: 23.36px;
     }
-
     .arrowR {
       @include g.d-gallery-arrow;
       right: 23.36px;

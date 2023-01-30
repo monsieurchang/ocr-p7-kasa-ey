@@ -17,11 +17,9 @@
   }
   .headerMenu {
     min-width: 140px;
-
     .headerUl {
       display: flex;
       justify-content: space-between;
-
       a {
         &:hover {
           text-decoration: underline;
@@ -43,7 +41,6 @@
   #header {
     padding: 30px;
     margin-top: 30px;
-    border: solid 1px blue;
     a {
       .headerLogo {
         width: 178px;

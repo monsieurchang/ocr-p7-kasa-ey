@@ -12,7 +12,7 @@ function Header() {
           alt="kasa logo"
           className="headerLogo"
           onClick={() => {
-            window.scroll(0, 0)
+            window.scroll(0, 0);
           }}
         />
       </Link>

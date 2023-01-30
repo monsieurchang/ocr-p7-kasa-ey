@@ -5,7 +5,6 @@
   margin-bottom: 20.07px;
   width: 100%;
   cursor: pointer;
-
   .collapseDiv {
     display: flex;
     justify-content: space-between;
@@ -16,25 +15,21 @@
     position: relative;
     z-index: 1;
     height: 29.93px;
-
     .collapseTitle {
       font-weight: 500;
       font-size: 13px;
       line-height: 142.6%;
       color: g.$white;
     }
-
     .collapseArrowUp {
       transform: rotate(180deg);
       width: 15.2px;
     }
-
     .collapseArrowDown {
       transition: 0.7s;
       width: 15.2px;
     }
   }
-
   .collapseText {
     background-color: g.$grey;
     color: g.$red;
@@ -59,8 +54,6 @@
       padding: 1rem;
       position: relative;
       z-index: 1;
-      // height: 30px;
-
       .collapseTitle {
         font-size: 16px;
         height: 11px;
@@ -69,18 +62,17 @@
         align-items: center;
       }
     }
-
     .collapseText {
       font-size: 16px;
     }
   }
 }
 
+/* desktop */
 @media screen and (min-width: 1025px) {
   #collapse {
     max-width: 1023px;
     margin-bottom: 30px;
-
     .collapseDiv {
       height: 47px;
       border-radius: g.$m-radius;

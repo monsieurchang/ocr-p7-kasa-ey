@@ -7,11 +7,9 @@
   height: 209px;
   @include g.flex-col-center;
   padding-top: 30px;
-
   .footerLogo {
     width: 122px;
   }
-
   .footerText {
     color: g.$white;
     font-size: 12px;
