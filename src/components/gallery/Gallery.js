@@ -43,5 +43,4 @@ function Gallery({ pictures }) {
     </div>
   );
 }
-
 export default Gallery;

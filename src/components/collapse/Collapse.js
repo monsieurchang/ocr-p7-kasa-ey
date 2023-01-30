@@ -30,5 +30,4 @@ function Collapse({ title, text }) {
     </div>
   );
 }
-
 export default Collapse;
